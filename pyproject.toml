@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moo"
+version = "0.0.0"
+dependencies = [
+]
+
+
+[tool.setuptools.package-dir]
+moo = "src"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = ""
+testpaths = [
+    "test/*",
+]
